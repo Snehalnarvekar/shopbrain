@@ -872,6 +872,7 @@ a:hover {
 	padding: 15px 0px;
 }
 
+
 /* About-page */
 .about-wrapper img{
 	height: 400px;
@@ -961,8 +962,8 @@ a:hover {
 	border-radius: 20px;
 }
 .conversion-opt-wrapper{
-	padding-top: 50px;
-	padding-bottom: 180px;
+	padding: 100px 0px;
+	background: #F8FDFF !important;
 }
 .conversion-title{
 	color: #000;
@@ -1022,6 +1023,10 @@ a:hover {
 	text-align: left;
     max-width: 400px;
 }
+.feature-wrapper{
+	padding-top: 100px;
+	background: #F8FDFF !important;
+}
 .feature-wrapper .left-side{
 	padding-top: 60px;
 }
@@ -1030,12 +1035,12 @@ a:hover {
     border-radius: 5px;
 }
 .feature-wrapper svg{
-	font-size: 35px;
+	font-size: 20px;
 }
 .feature-wrap{
 	width: 60px;
 	height: 60px;
-	padding: 10px;
+	padding: 18px 20px;
 }
 .feature-col h4{
 	color: #00344E;
@@ -1065,7 +1070,7 @@ a:hover {
     line-height: 40px;
     max-width: 750px;
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 .what-makes-conversion-p{
 	color: #00344E;
@@ -1074,8 +1079,15 @@ a:hover {
     line-height: 25px;
     max-width: 850px;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
 }
+.some-of .partners-logo .column{
+	margin-left: 0;
+	margin-right: 100px;
+	margin-bottom: 40px;
+}
+
+
 @media screen and (max-width: 600px) {
 	.card-main {
 		padding: 50px 10px
