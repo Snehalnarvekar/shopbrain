@@ -873,6 +873,10 @@ a:hover {
 }
 
 /* About-page */
+.about-wrapper img{
+	height: 400px;
+	width: auto;
+}
 .we-build-wrapper .container img{
 	width: 100%;
 }
