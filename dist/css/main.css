@@ -1220,6 +1220,15 @@ a:hover {
 .so-amazing .support-icon img {
     font-size: 40px;
 }
+.some-of-the-worlds-p{
+	color: #1B1B1B;
+    font-family: 'Lato-Regular';
+    font-size: 17px;
+    line-height: 25px;
+    max-width: 361px;
+    text-align: left;
+    margin-bottom: 20px;
+}
 .actionlink {
     color: #3e4854;
     font-family: 'Lato-Regular';
@@ -1573,6 +1582,84 @@ a:hover {
 	.copyright {
 		margin-top:30px;
 	}
+
+	/* about-page */
+	/* conversion-page */
+	.learnmore-btn {
+		font-size: 14px;
+		line-height: 20px;
+		padding: 15px 40px;
+		margin-left: 0;
+		margin-top: 20px;
+	}
+	.getstarted-btn {
+		font-size: 14px;
+		line-height: 20px;
+		padding: 15px 40px;
+	}
+	.feature-wrapper {
+		padding-top: 30px;
+	}
+	.feature-wrapper .left-side {
+		padding-top: 0;
+	}
+	.feature-col {
+		margin-bottom: 25px;
+	}
+	.conversion-opt-wrapper {
+		padding: 30px 0px;
+	}
+	h2.about-title, .conversion-title {
+		font-size: 28px;
+		line-height: 36px;
+		margin-bottom: 15px;
+	}
+	.conversion-p, .what-makes-conversion-p {
+		max-width: 650px;
+		margin: 0 auto;
+		margin-bottom: 40px;
+
+	}
+	.what-makes-title, .what-makes-conversion {
+		font-size: 28px;
+		line-height: 36px;
+		margin-bottom: 25px;
+		text-align: center;
+	}
+	.what-makes-title, .what-makes-conversion {
+		font-size: 28px;
+		line-height: 36px;
+		margin-bottom: 25px;
+		text-align: center;
+	}
+	.conversion-p, .what-makes-p,
+	.feature-col p, .what-makes-conversion-p,.some-of-the-worlds-p,
+	.please-enter-your-p {
+		font-size: 15px;
+	}
+	.some-of-the-worlds-p{
+		max-width: 100%;
+	}
+	.some-of-the .partners-logo .column {
+		margin-left: 0;
+		margin-right: 0;
+		margin-bottom: 20px;
+		width: 33.33%;
+		float: left;
+	}
+	.some-of-the .column img {
+		width: auto !important;
+	}
+	.so-amazing {
+		padding-top: 50px;
+	}
+	.partners-logo {
+		padding-top: 30px;
+	}
+	.some-of-the {
+		padding-top: 60px;
+		padding-bottom: 50px;
+	}
 }
 @media screen and (min-width: 1025px) and (max-width:1199px) {
 	.custom-nav .nav-item .nav-link {
@@ -1892,20 +1979,26 @@ a:hover {
 		max-width: 100%;
 		margin-bottom: 25px;
 	}	
+
 	/* about-page */
 	/* conversion-page */
-	.so-amazing .col-md-8 {
-		flex: 0 0 100%;
-		max-width: 100%;
+	.sub-page .navbar {
+		padding: 10px 0px 10px;
+	}
+	.sub-page .custom-nav {
+		background: #c5c7c9;
+		padding-top: 20px;
+		padding-bottom: 20px;
 	}
 	h2.about-title,
 	.conversion-title{
-		font-size: 28px;
-		line-height: 36px;
-		margin-bottom: 10px;
+		font-size: 34px;
+		line-height: 42px;
+		margin-bottom: 15px;
 	}
 	.conversion-p, .what-makes-p,
 	.feature-col p, .what-makes-conversion-p,
+	.some-of-the-worlds-p,
 	.please-enter-your-p {
 		font-size: 15px;
 		max-width: 430px;
@@ -1932,6 +2025,10 @@ a:hover {
 	}
 	.so-amazing {
 		padding-top: 60px
+	}
+	.so-amazing .col-md-8{
+		flex: 0 0 100% !important;
+		max-width: 100% !important;
 	}
 	.what-makes-title,
 	.what-makes-conversion {
