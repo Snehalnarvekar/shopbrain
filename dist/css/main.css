@@ -872,21 +872,55 @@ a:hover {
 	padding: 15px 0px;
 }
 
-
 /* About-page */
-.about-wrapper img{
-	height: 400px;
-	width: auto;
+.sub-page .navbar {
+    background: linear-gradient(90deg, #FFFFFF 0%, #c5c7c9 100%);;
+    padding: 30px 0px;
+    z-index: 99;
 }
-.we-build-wrapper .container img{
-	width: 100%;
+.sub-page .custom-nav .nav-item .nav-link {
+    color: #0C1014 !important;
+    font-family: 'Lato-Regular';
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    line-height: 19px;
+    padding: 0px 20px;
+}
+.login-btn{
+	color:#0C1014  !important;
+    font-family: 'Lato-Bold';
+    font-size: 16px;
+    letter-spacing: 1.14px;
+    line-height: 19px;
+    text-align: center;
+    padding: 10px 25px;
+    background-color: rgb(0, 0, 0, 0.02);
+    border-radius: 20px;
+}
+.navbar-collapse .book-a-demo-btn {
+    color: #0C1014 !important;
+    font-family: 'Lato-Bold';
+    font-size: 16px;
+    letter-spacing: 1.14px;
+    line-height: 19px;
+    text-align: center;
+	background-color: rgb(0, 0, 0, 0.05038132589487802);
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-left: 10px;
+}
+.about-wrapper{
+	height: 445px;
 }
 .about-wrapper .left-inner-wrap{
 	position: relative;
 	padding-top: 100px;
+	z-index: 1;
 }
-.about-page .navbar-collapse .book-a-demo , .about-page .login{
-	border-radius: 20px;
+.about-wrapper .right-image-wrap img{
+	position: absolute;
+	left: -100px;
+	height: 445px;
 }
 .about-para{
 	background:#FFFFFF;
@@ -903,18 +937,10 @@ a:hover {
 	padding-top: 180px;
 }
 .about-title{
-	color: #000;
+	color: #0C1014;
 	font-family: 'Lato-Black';
     font-size: 48px;
     line-height: 57.6px;
-    text-align: left;
-    margin-bottom: 30px;
-}
-.we-build-title{
-	color: #00344E;
-    font-family: 'Lato-Regular';
-    font-size: 35px;
-    line-height: 40px;
     text-align: left;
     margin-bottom: 30px;
 }
@@ -943,30 +969,57 @@ a:hover {
 .core-team-wrap p{
 	color: #68818E;
 	font-family: 'Lato-Regular';
-	font-size: 17px;
+	font-size: 16px;
 	line-height: 25px;
 	text-align: left;
 }
+.we-build-wrapper{
+	padding-bottom: 400px;
+}
+.we-build-title{
+	color: #3c4858;
+    font-family: 'Lato-Regular';
+    font-size: 35px;
+    line-height: 40px;
+    text-align: left;
+	margin-bottom: 30px;
+	margin-top: 100px;
+}
 .we-build-para{
-	color: #68818E;
+	color: #3e4854;
 	font-family: 'Lato-Regular';
 	font-size: 17px;
 	line-height: 25px;
 	max-width: 400px;
 	text-align: left;
 }
+.we-build-wrapper .we-build-col2 img{
+	width: 100%;
+	position: relative; 
+	margin-top: 100px;
+}
+.we-build-wrapper .we-build-col1 .image2 img {
+	position: relative !important;
+	width: 100%;
+	margin-top: 280px;
+	
+}
+.we-build-wrapper .we-build-col1 .image1 img{
+	width: 350px !important;
+	height: 250px;
+	position:absolute;
+	left: -72px;
+}
+
 
 /* Conversion-optimizer-page */ 
 
-.conversion-page .navbar-collapse .book-a-demo , .conversion-page .login{
-	border-radius: 20px;
-}
 .conversion-opt-wrapper{
 	padding: 100px 0px;
-	background: #F8FDFF !important;
+	background: #FFFFFF!important;
 }
 .conversion-title{
-	color: #000;
+	color: #0C1014;
 	font-family: 'Lato-Black';
     font-size: 48px;
     line-height: 57.6px;
@@ -1025,7 +1078,7 @@ a:hover {
 }
 .feature-wrapper{
 	padding-top: 100px;
-	background: #F8FDFF !important;
+	background: #FFFFFF !important;
 }
 .feature-wrapper .left-side{
 	padding-top: 60px;
@@ -1063,6 +1116,75 @@ a:hover {
 .feature-col{
 	margin-bottom: 50px;
 }
+.optimizer-our-sales {
+	background: #F5F5F5;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 0;
+}
+.our-sales-team-title {
+    padding-top: 65px;
+    color: #3e4854;
+    font-family: 'Lato-Regular';
+    font-size: 45px;
+    line-height: 50px;
+    max-width: 458px;
+    text-align: left;
+    margin-bottom: 25px;
+}
+.please-enter-your-p {
+    color: #00344E;
+    font-family: 'Lato-Regular';
+    font-size: 17px;
+    line-height: 25px;
+    max-width: 458px;
+	text-align: left;
+}
+.gray-wrap{
+	background: #D8D8D8	;
+    padding: 45px 40px 60px 40px;
+}
+.optimizer-our-sales .book-form .form-control {
+	background-color: #EEF5F8;
+	color: #c0bbbb;
+	border-radius: 0;
+	border: none;
+    font-family: Lato-Regular;
+    font-size: 13px;
+    line-height: 20px;
+    padding: 10px 0px;
+    text-align: center;
+	margin-bottom: 10px;
+	height: auto;
+}
+.optimizer-our-sales .book-submit {
+    color: #F5F9FC;
+    font-family: Lato-Black;
+    font-size: 17px;
+    line-height: 25px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: #1B1B1B;
+    border-radius: 4px;
+	width: 100%;
+}
+.optimizer-our-sales .privacy-policy {
+    color: #3e4854;
+    font-family: 'Lato-Regular';
+    font-size: 17px;
+    line-height: 25px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.optimizer-our-sales .book-a {
+    color: #3e4854;
+    font-family: 'Lato-Regular';
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 25px;
+}
 .what-makes-conversion{
 	color: #00344E;
     font-family: 'Lato-Regular';
@@ -1081,12 +1203,31 @@ a:hover {
     text-align: center;
     margin-bottom: 80px;
 }
-.some-of .partners-logo .column{
+.some-of-the{
+	padding-top: 100px;
+    background: #FFFFFF !important;
+    padding-bottom: 112px;
+}
+.some-of-the .partners-logo .column{
 	margin-left: 0;
 	margin-right: 100px;
 	margin-bottom: 40px;
 }
-
+.so-amazing{
+	padding-top: 128px;
+    background: #FFFFFF !important;
+}
+.so-amazing .support-icon img {
+    font-size: 40px;
+}
+.actionlink {
+    color: #3e4854;
+    font-family: 'Lato-Regular';
+    font-size: 17px;
+	line-height: 25px;
+	font-weight: 600;
+    text-align: left;
+}
 
 @media screen and (max-width: 600px) {
 	.card-main {
@@ -1750,5 +1891,75 @@ a:hover {
 		line-height: 40px;
 		max-width: 100%;
 		margin-bottom: 25px;
+	}	
+	/* about-page */
+	/* conversion-page */
+	.so-amazing .col-md-8 {
+		flex: 0 0 100%;
+		max-width: 100%;
 	}
+	h2.about-title,
+	.conversion-title{
+		font-size: 28px;
+		line-height: 36px;
+		margin-bottom: 10px;
+	}
+	.conversion-p, .what-makes-p,
+	.feature-col p, .what-makes-conversion-p,
+	.please-enter-your-p {
+		font-size: 15px;
+		max-width: 430px;
+	}	
+	.conversion-p, .what-makes-conversion-p{
+		max-width: 650px;
+		margin: 0 auto;
+		margin-bottom: 40px;
+	}
+	.conversion-opt-wrapper {
+		padding-top: 30px;
+		padding-bottom: 50px;
+	}
+	.feature-wrapper {
+		padding-top: 50px;
+	}
+	.feature-col p {
+		padding-top: 5px;
+	}
+	.feature-wrap{
+		width: 46px;
+		height: 46px;
+		padding: 10px 12px;
+	}
+	.so-amazing {
+		padding-top: 60px
+	}
+	.what-makes-title,
+	.what-makes-conversion {
+		font-size: 28px;
+    	line-height: 36px;
+		margin-bottom: 25px;
+	}
+	.our-sales-team-title {
+		padding-top: 0;
+		font-size: 28px;
+		line-height: 40px;
+		max-width: 100%;
+		margin-bottom: 25px;
+	}
+	.some-of-the {
+		padding: 0 0 50px;
+	}
+	.some-of-the .partners-logo .column {
+		margin-left: 0;
+		margin-right: 0;
+		margin-bottom: 20px; 
+		width: 33.33%;
+		float: left;
+	}
+	.some-of-the .column img {
+		width: 60px !important;
+		height: 60px;
+	}
+	
+	
 }
