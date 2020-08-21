@@ -180,7 +180,7 @@ p.increase-your-direct {
 
 .right-inner-wrap ul {
 	list-style: none;
-	padding: 20px;
+	padding: 20px 20px 10px;
 	margin-bottom: 0px;
 }
 
@@ -220,6 +220,7 @@ p.increase-your-direct {
 	letter-spacing: -0.45px;
 	line-height: 21px;
 	text-align: center;
+	margin: 0;
 }
 
 .powered-by-shopbrain {
@@ -1237,6 +1238,37 @@ a:hover {
 	font-weight: 600;
     text-align: left;
 }
+
+/*conversion-rate-page  */
+
+.header-bg{
+    background-color:#008dd4;;
+    background-size: cover;
+    background-repeat: no-repeat;
+	height: 350px;
+	position: relative;
+}
+.card-row .right-inner-wrap{
+	margin: 0;
+}
+.card-row{
+	margin-top: -210px;
+}
+.card-section {
+    padding-bottom: 150px;
+    background: #FFFFFF;
+}
+.direction-section{
+	position: relative;
+	padding-bottom: 300px;
+}
+.product-section img{
+	width: 100%;
+}
+.card-wrapper{
+	padding: 280px 0 300px;
+}
+
 
 @media screen and (max-width: 600px) {
 	.card-main {
