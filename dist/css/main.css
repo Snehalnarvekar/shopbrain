@@ -1268,7 +1268,14 @@ a:hover {
 .card-wrapper{
 	padding: 280px 0 300px;
 }
-
+.card-row .right-inner-wrap .zigzag-icon{
+	position: absolute;
+	top: -30px;
+	left: -5px;
+}
+.card-row .right-inner-wrap .zigzag-icon3{
+	margin-left: 18%;
+}
 
 @media screen and (max-width: 600px) {
 	.card-main {
