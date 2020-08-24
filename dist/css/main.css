@@ -1078,7 +1078,7 @@ a:hover {
     max-width: 400px;
 }
 .feature-wrapper{
-	padding-top: 100px;
+	padding: 100px 0 60px;
 	background: #FFFFFF !important;
 }
 .feature-wrapper .left-side{
@@ -1275,6 +1275,24 @@ a:hover {
 }
 .card-row .right-inner-wrap .zigzag-icon3{
 	margin-left: 18%;
+	position: absolute;
+	top: 12px;
+}
+.card-wrap .right-inner-wrap .zigzag-icon{
+	position: absolute;
+	top: -10px;
+	left: 38px;
+}
+.powered-by-shopbrain.blue-bg{
+    color: #FFFFFF;
+    text-align: right;
+    padding: 20px;
+    background-color: #2b2e4e;
+    border-radius: 0 0 8px 8px;
+}
+.powered-by-shopbrain.blue-bg img{
+	width: 40px;
+	height: 40px;
 }
 
 @media screen and (max-width: 600px) {
@@ -1624,17 +1642,21 @@ a:hover {
 
 	/* about-page */
 	/* conversion-page */
+	.sub-page .custom-nav {
+		background: #c5c7c9;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
 	.learnmore-btn {
 		font-size: 14px;
 		line-height: 20px;
-		padding: 15px 40px;
 		margin-left: 0;
-		margin-top: 20px;
+		margin-bottom: 10px;
 	}
 	.getstarted-btn {
 		font-size: 14px;
 		line-height: 20px;
-		padding: 15px 40px;
+		margin-bottom: 10px;
 	}
 	.feature-wrapper {
 		padding-top: 30px;
@@ -1676,6 +1698,16 @@ a:hover {
 	.please-enter-your-p {
 		font-size: 15px;
 	}
+	.our-sales-team-title{
+		padding-top: 0;
+		font-size: 28px;
+		line-height: 34px;
+		max-width: 100%;
+		margin-bottom: 25px;
+	}
+	.optimizer-our-sales {
+		padding: 30px 0;
+	}
 	.some-of-the-worlds-p{
 		max-width: 100%;
 	}
@@ -1699,6 +1731,7 @@ a:hover {
 		padding-top: 60px;
 		padding-bottom: 50px;
 	}
+
 }
 @media screen and (min-width: 1025px) and (max-width:1199px) {
 	.custom-nav .nav-item .nav-link {
@@ -2096,6 +2129,11 @@ a:hover {
 		width: 60px !important;
 		height: 60px;
 	}
-	
-	
+	.core-team .box img{
+		width: 100%;
+	}
+	p.about-para {
+		width: 80%;
+		font-size: 15px;
+	}
 }
