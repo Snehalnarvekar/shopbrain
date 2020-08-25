@@ -1269,13 +1269,16 @@ a:hover {
 	background-color:#008dd4;
     background-size: cover;
     background-repeat: no-repeat;
-	margin-bottom: 350px;
+	margin-bottom: 280px;
 	height: 350px;
 	width: 100%;
 	float: left;
 }
 .direction-section{
 	padding-bottom: 300px;
+	padding-top: 160px;
+	float: left;
+	width: 100%;
 }
 .product-section img{
 	width: 100%;
@@ -1287,6 +1290,8 @@ a:hover {
 	position: absolute;
 	top: -30px;
 	left: -5px;
+	width: 53px;
+	height: 47px;
 }
 .card-row .right-inner-wrap .zigzag-icon3{
 	margin-left: 18%;
@@ -1299,6 +1304,8 @@ a:hover {
 	position: absolute;
 	top: -10px;
 	left: 38px;
+	width: 53px;
+	height: 47px;
 }
 .direction-section .col-md-4 img {
     width: 100%;
@@ -1315,8 +1322,14 @@ a:hover {
 	height: 19px;
 }
 .card-wrap{
-	justify-content: center;
+	justify-content: space-between;
 }
+.card-wrap .right-inner-wrap{
+	width: 100%;
+	max-width: 400px;
+	margin: 0 auto;
+}
+
 
 @media screen and (max-width: 600px) {
 	.card-main {
@@ -1759,15 +1772,43 @@ a:hover {
 	}
 	.direction-section {
 		padding-bottom: 40px;
+		padding-top: 50px;
 	}
-	.card-wrap .col-md-1 {
-		display: none;
+	.card-section {
+		margin-bottom: 1300px;
+		height: 250px;
 	}
-	.card-wrap .col-md-5 {
-		flex: 100%;
-		max-width: 100%;
+	.card-wrapper {
+		padding: 50px 0 100px;
 	}
-	
+	.card-wrap .right-inner-wrap .zigzag-icon {
+		position: absolute;
+		top: -6%;
+		left: 2%;
+		width: 15%;
+	}
+	.card-row .right-inner-wrap{
+		margin: 0;
+		margin-bottom: 40px;
+	}
+	.card-wrap .right-inner-wrap{
+		margin: 0;
+		margin-bottom: 60px;
+	}
+	.card-wrap {
+		display: flex;
+		 justify-content: space-around; 
+	}
+	.card-row .right-inner-wrap .zigzag-icon3 {
+		margin-left: 2%;
+		top: 3%;
+		width: 12%;
+	}
+	.card-row .right-inner-wrap .zigzag-icon {
+		top: -6%;
+		left: 5%;
+		width: 15%;
+	}
 }
 @media screen and (min-width: 1025px) and (max-width:1199px) {
 	.custom-nav .nav-item .nav-link {
@@ -2184,27 +2225,43 @@ a:hover {
 		position: absolute;
 		height: 400px;
 	}
+	.card-section {
+		margin-bottom: 180px;
+		height: 320px;
+	}
+	.card-section .col-md-4{
+		padding-right: 10px;
+		padding-left: 10px;
+	}
 	.direction-section .col-md-4 img {
 		width: 100%;
 	}
 	.direction-section {
 		padding-bottom: 100px;
+		padding-top: 100px;
 	}
 	.card-row .right-inner-wrap .zigzag-icon3{
-		margin-left: 12%;
+		margin-left: 1%;
 		top: 2%;
 		width:  12%;
-		
-	}
-	.card-row .right-inner-wrap .zigzag-icon {
-		top: -6%;
-		left: 0;
-		width:  12%;
-	}
-	.card-wrap .col-md-5 {
-		flex: 30%;
-		max-width: 40%;
 	
 	}
-		
+	.card-row .right-inner-wrap .zigzag-icon {
+		top: -8%;
+		left: 2%;
+		width: 15%;
+	}
+	.card-wrap .right-inner-wrap .zigzag-icon {
+		position: absolute;
+		top: -3%;
+		left: 2%;
+	}	
+	.card-wrapper {
+		padding: 150px 0 300px;
+	}
+	.row.card-row {
+		display: flex;
+		flex-wrap: wrap;
+		margin-top: 160px;
+	}
 }
