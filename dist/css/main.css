@@ -922,6 +922,7 @@ a:hover {
 	position: absolute;
 	left: -100px;
 	height: 445px;
+	max-width: 774px;
 }
 .about-para{
 	background:#FFFFFF;
@@ -2142,8 +2143,6 @@ a:hover {
 	
 	.about-wrapper .right-image-wrap img {
 		position: absolute;
-		left: -12%;
 		height: 400px;
-		max-width: 538px;
 	}
 }
