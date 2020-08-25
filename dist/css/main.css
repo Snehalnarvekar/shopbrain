@@ -1251,6 +1251,9 @@ a:hover {
 .card-row .right-inner-wrap{
 	margin: 0;
 }
+.card-section .right-inner-wrap ul li {
+	margin-bottom: 10px;
+}
 .card-row{
 	margin-top: -210px;
 }
@@ -1291,8 +1294,8 @@ a:hover {
     border-radius: 0 0 8px 8px;
 }
 .powered-by-shopbrain.blue-bg img{
-	width: 40px;
-	height: 40px;
+	width: 26px;
+	height: 19px;
 }
 
 @media screen and (max-width: 600px) {
@@ -2135,5 +2138,12 @@ a:hover {
 	p.about-para {
 		width: 80%;
 		font-size: 15px;
+	}
+	
+	.about-wrapper .right-image-wrap img {
+		position: absolute;
+		left: -12%;
+		height: 400px;
+		max-width: 538px;
 	}
 }
