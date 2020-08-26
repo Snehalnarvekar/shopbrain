@@ -921,14 +921,15 @@ a:hover {
 }
 .about-wrapper .right-image-wrap img{
 	position: absolute;
-	left: -100px;
-	height: 445px;
-	max-width: 774px;
+	height: 400px;
+	left: -14%;
+	max-width: 650px;
 }
 .about-para{
 	background:#FFFFFF;
-    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
-	max-width: 550px;
+	box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+	width: 100%;
+	max-width: 560px;
 	padding:20px 10px;
 	color: #68818E;
 	font-family: 'Lato-Regular';
@@ -955,14 +956,18 @@ a:hover {
 	padding-top: 100px;
 	padding-bottom: 100px;
 }
-.core-team-wrap .col-1{
+.core-team img{
+	width: 100%;
+}
+.core-team-wrap .col_1{
 	margin-top: 150px;
 }
-.core-team-wrap .col-3{
+.core-team-wrap .col_3{
 	margin-top: 80px;
 }
 .core-team-wrap .box{
 	margin-bottom: 50px;
+	max-width: 265px;
 }
 .core-team-wrap h3{
 	color: #000;
@@ -1001,21 +1006,20 @@ a:hover {
 	text-align: left;
 }
 .we-build-wrapper .we-build-col2 img{
-	width: 100%;
-	position: relative; 
-	margin-top: 100px;
+	width: 100%; 
+	margin-top: 80px;
 }
 .we-build-wrapper .we-build-col1 .image2 img {
-	position: relative !important;
 	width: 100%;
+	height: 200px;
 	margin-top: 280px;
 	
 }
 .we-build-wrapper .we-build-col1 .image1 img{
-	width: 350px !important;
-	height: 250px;
-	position:absolute;
-	left: -72px;
+	width: 125%;
+    height: 250px;
+    position: absolute;
+    left: -30%;
 }
 
 
@@ -1714,33 +1718,96 @@ a:hover {
 	.conversion-opt-wrapper {
 		padding: 30px 0px;
 	}
+	.about-wrapper .left-inner-wrap {
+		position: relative;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	.about-wrapper .right-image-wrap img {
+		position: relative;
+		left:0;
+		max-width: 100%;
+	}
+	.about-para {
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.core-team {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	.core-team-wrap .box{
+		max-width: 100%;
+		margin-bottom: 30px;
+	}
+	.core-team-wrap .col_3 {
+		margin-top: 0;
+	}
+	.core-team-wrap .col_1 {
+		margin-top: 30px;
+	}
+	.about-wrapper {
+		height: auto;
+	}
+	.core-team-wrap .title-text {
+		padding-top: 30px;
+		font-size: 28px;
+		line-height: 36px;
+		text-align: center;
+		margin-bottom: 30px;
+	}
 	h2.about-title, .conversion-title {
 		font-size: 28px;
 		line-height: 36px;
 		margin-bottom: 15px;
+		text-align: center;
+	}
+	.we-build-wrapper {
+		padding-bottom: 100px;
+	}
+	.we-build-wrapper .row {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.we-build-wrapper .we-build-col1 .image1 img {
+		width: 100%;
+		height: 300px;
+		position: relative;
+		left: 0;
+		margin-top: 20px;
+	}
+	.we-build-wrapper .we-build-col1 .image2 img {
+		width: 100%;
+		height: 300px;
+		margin-top: 20px;
+	}
+	.we-build-wrapper .we-build-col2 img {
+		width: 100%;
+		margin-top: 20px;
+		height: 300px;
 	}
 	.conversion-p, .what-makes-conversion-p {
 		max-width: 650px;
 		margin: 0 auto;
 		margin-bottom: 40px;
-
 	}
-	.what-makes-title, .what-makes-conversion {
-		font-size: 28px;
-		line-height: 36px;
-		margin-bottom: 25px;
-		text-align: center;
+	.we-build-title{
+		margin-top: 0;
 	}
-	.what-makes-title, .what-makes-conversion {
+	.what-makes-title, .we-build-title,
+	 .what-makes-conversion {
 		font-size: 28px;
 		line-height: 36px;
 		margin-bottom: 25px;
 		text-align: center;
 	}
 	.conversion-p, .what-makes-p,
-	.feature-col p, .what-makes-conversion-p,.some-of-the-worlds-p,
+	.feature-col p, .what-makes-conversion-p, .we-build-para,
+	.some-of-the-worlds-p,
 	.please-enter-your-p {
 		font-size: 15px;
+		text-align: center;
 	}
 	.our-sales-team-title{
 		padding-top: 0;
@@ -2148,12 +2215,12 @@ a:hover {
 
 	/* about-page */
 	/* conversion-page */
-	.core-team-wrap .title-text{
-		padding-top: 50px;
-		font-family: 'Lato-Regular';
+	.core-team-wrap p , .we-build-para{
+		font-size: 15px;
+	}
+	.core-team-wrap .title-text , .we-build-title{
 		font-size: 28px;
 		line-height: 36px;
-		text-align: left;
 	}
 	.sub-page .navbar {
 		padding: 10px 0px 10px;
@@ -2167,7 +2234,7 @@ a:hover {
 	.conversion-title{
 		font-size: 34px;
 		line-height: 42px;
-		margin-bottom: 15px;
+		margin-bottom: 25px;
 	}
 	.conversion-p, .what-makes-p,
 	.feature-col p, .what-makes-conversion-p,
@@ -2234,13 +2301,30 @@ a:hover {
 		width: 100%;
 	}
 	p.about-para {
-		width: 80%;
+		width: 100%;
 		font-size: 15px;
 	}
-	
+	.core-team {
+		padding-top: 50px;
+		padding-bottom: 80px;
+	}
 	.about-wrapper .right-image-wrap img {
 		position: absolute;
-		height: 400px;
+		height: 350px;
+		width: 100%;
+	}
+	.about-wrapper .left-inner-wrap {
+		padding-top: 80px;
+	}
+	.we-build-wrapper {
+		padding-bottom: 160px;
+	}
+	.we-build-wrapper .we-build-col1 .image2 img {
+		margin-top: 230px;
+		height: 180px;
+	}
+	.we-build-wrapper .we-build-col1 .image1 img {
+		height: 200px;
 	}
 	.card-section {
 		margin-bottom: 180px;
@@ -2279,5 +2363,11 @@ a:hover {
 		display: flex;
 		flex-wrap: wrap;
 		margin-top: 160px;
+	}
+	.core-team-wrap .box {
+		margin-bottom: 30px;
+	}
+	.about-wrapper {
+		height: 400px;
 	}
 }
