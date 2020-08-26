@@ -1302,8 +1302,8 @@ a:hover {
 }
 .card-wrap .right-inner-wrap .zigzag-icon{
 	position: absolute;
-	top: -10px;
-	left: 38px;
+	top: -6%;
+    left: 15%;
 	width: 53px;
 	height: 47px;
 }
@@ -1354,6 +1354,14 @@ a:hover {
 	}
 	.close-quotes {
 		margin-right: 30px
+	}
+	.card-row .right-inner-wrap .zigzag-icon {
+		top: -6%;
+		left: 2% !important;
+	}
+	.card-wrap .right-inner-wrap .zigzag-icon {
+		top: -6%;
+		left: 2% !important;
 	}
 }
 
@@ -1784,15 +1792,16 @@ a:hover {
 	.card-wrap .right-inner-wrap .zigzag-icon {
 		position: absolute;
 		top: -6%;
-		left: 2%;
+		left: 14%;
 		width: 15%;
 	}
 	.card-row .right-inner-wrap{
-		margin: 0;
+		margin: 0 auto;
 		margin-bottom: 40px;
+		max-width: 400px;
 	}
 	.card-wrap .right-inner-wrap{
-		margin: 0;
+		margin: 0 auto;
 		margin-bottom: 60px;
 	}
 	.card-wrap {
@@ -1806,10 +1815,16 @@ a:hover {
 	}
 	.card-row .right-inner-wrap .zigzag-icon {
 		top: -6%;
-		left: 5%;
-		width: 15%;
+		left: 22%;
+	}
+	.right-inner-wrap ul {
+		padding: 15px 15px 10px;
+	}
+	.row.card-row {
+		margin-top: 150px;
 	}
 }
+
 @media screen and (min-width: 1025px) and (max-width:1199px) {
 	.custom-nav .nav-item .nav-link {
 		font-size: 14px;
@@ -1869,6 +1884,9 @@ a:hover {
 	.mt-60 {
 		margin-bottom: 60px;
 		margin-top: 60px;
+	}
+	.card-row .right-inner-wrap .zigzag-icon3 {
+		margin-left: 10%;
 	}
 }
 @media screen and (min-width: 1201px) and (max-width:1340px) {
@@ -2252,9 +2270,9 @@ a:hover {
 		width: 15%;
 	}
 	.card-wrap .right-inner-wrap .zigzag-icon {
-		position: absolute;
-		top: -3%;
-		left: 2%;
+		top: -8%;
+		left: -25%;
+		width: 80%;
 	}	
 	.card-wrapper {
 		padding: 150px 0 300px;
