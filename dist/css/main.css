@@ -1792,8 +1792,7 @@ a:hover {
 	.card-wrap .right-inner-wrap .zigzag-icon {
 		position: absolute;
 		top: -6%;
-		left: 14%;
-		width: 15%;
+		left: 20%;
 	}
 	.card-row .right-inner-wrap{
 		margin: 0 auto;
@@ -2271,8 +2270,7 @@ a:hover {
 	}
 	.card-wrap .right-inner-wrap .zigzag-icon {
 		top: -8%;
-		left: -25%;
-		width: 80%;
+		left: 8%;
 	}	
 	.card-wrapper {
 		padding: 150px 0 300px;
