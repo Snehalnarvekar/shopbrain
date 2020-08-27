@@ -65,7 +65,7 @@ body {
 	top: -50px;
 	width: 100%;
 }
-.custom-nav .nav-item .nav-link {
+.nav-item .nav-link {
 	color: #FFFFFF !important;
 	font-family: 'Lato-Regular';
 	font-size: 16px;
@@ -899,6 +899,14 @@ a:hover {
     background-color: rgb(0, 0, 0, 0.02);
     border-radius: 20px;
 }
+.login-btn:hover {
+    box-shadow: 0px 6px 30px -8px #b6b4b4;
+    transition: 0.3s all linear;
+}
+.book-a-demo-btn:hover {
+    box-shadow: 0px 4px 24px 1px #a09b9b;
+    transition: 0.3s all linear;
+}
 .navbar-collapse .book-a-demo-btn {
     color: #0C1014 !important;
     font-family: 'Lato-Bold';
@@ -920,10 +928,10 @@ a:hover {
 	z-index: 1;
 }
 .about-wrapper .right-image-wrap img{
-		position: absolute;
-		height: 400px;
-		left: -15%;
-		width: 130%;
+	position: absolute;
+	height: 400px;
+	left: -14%;
+	max-width: 650px;
 }
 .about-para{
 	background:#FFFFFF;
@@ -1012,14 +1020,12 @@ a:hover {
 .we-build-wrapper .we-build-col1 .image2 img {
 	width: 100%;
 	height: 200px;
-	margin-top: 280px;
+	margin-top: 40px;
 	
 }
 .we-build-wrapper .we-build-col1 .image1 img{
-	width: 125%;
+	width: 100%;
     height: 250px;
-    position: absolute;
-    left: -30%;
 }
 
 
@@ -1692,8 +1698,6 @@ a:hover {
 	/* conversion-page */
 	.sub-page .custom-nav {
 		background: #c5c7c9;
-		padding-top: 20px;
-		padding-bottom: 20px;
 	}
 	.learnmore-btn {
 		font-size: 14px;
@@ -1728,7 +1732,13 @@ a:hover {
 		left:0;
 		max-width: 100%;
 	}
-	.about-para {
+	.core-team-wrap h3 {
+		font-size: 18px;
+		line-height: 25px;
+		margin-bottom: 5px;
+	}
+	p.about-para {
+		font-size: 15px;
 		width: 100%;
 		margin: 0 auto;
 		text-align: center;
@@ -1751,11 +1761,11 @@ a:hover {
 		height: auto;
 	}
 	.core-team-wrap .title-text {
-		padding-top: 30px;
+		padding-top: 0;
 		font-size: 28px;
 		line-height: 36px;
 		text-align: center;
-		margin-bottom: 30px;
+		margin-bottom: 10px;
 	}
 	h2.about-title, .conversion-title {
 		font-size: 28px;
@@ -1804,10 +1814,13 @@ a:hover {
 	}
 	.conversion-p, .what-makes-p,
 	.feature-col p, .what-makes-conversion-p, .we-build-para,
-	.some-of-the-worlds-p,
+	.some-of-the-worlds-p,.core-team-wrap p ,
 	.please-enter-your-p {
 		font-size: 15px;
+	}
+	.what-makes-p,.we-build-para{
 		text-align: center;
+		max-width: 100%;
 	}
 	.our-sales-team-title{
 		padding-top: 0;
@@ -1955,10 +1968,7 @@ a:hover {
 		margin-left: 10%;
 	}
 	.about-wrapper .right-image-wrap img {
-		position: absolute;
-		height: 350px;
-		left: -14%;
-		max-width: 114%;
+		max-width: 110%;
 	}
 }
 @media screen and (min-width: 1201px) and (max-width:1340px) {
@@ -1979,10 +1989,10 @@ a:hover {
 	}
 }
 @media screen and (min-width: 768px) and (max-width:1024px) {
-	.custom-nav li.nav-item {
+	/* .custom-nav li.nav-item {
 		padding: 10px 0;
 		border-bottom: 1px solid #808080;
-	}
+	} */
 	.navbar-light .navbar-toggler {
 		border-color: #fff;
 	}
@@ -1993,7 +2003,6 @@ a:hover {
 		padding: 5px 20px;
 	}
 	.custom-nav {
-		background: #008dd4;
 		padding-top: 20px;
 		padding-bottom: 20px;
 	}
@@ -2167,12 +2176,7 @@ a:hover {
 		max-width: 68%;
 		flex: 0 0 64%;
 	}
-	.navbar-collapse {
-		position: absolute;
-		left: 0px;
-		right: 0px;
-		top: 70px;
-	}
+	
 	.wait-till {
 		padding-bottom: 50px;
 	}
@@ -2232,7 +2236,6 @@ a:hover {
 		padding: 10px 0px 10px;
 	}
 	.sub-page .custom-nav {
-		background: #c5c7c9;
 		padding-top: 20px;
 		padding-bottom: 20px;
 	}
@@ -2308,7 +2311,7 @@ a:hover {
 	}
 	p.about-para {
 		width: 100%;
-		font-size: 15px;
+		font-size: 16px;
 	}
 	.core-team {
 		padding-top: 50px;
@@ -2317,7 +2320,7 @@ a:hover {
 	.about-wrapper .right-image-wrap img {
 		position: absolute;
 		height: 350px;
-		max-width: 115%;
+		width: 100%;
 	}
 	.about-wrapper .left-inner-wrap {
 		padding-top: 80px;
@@ -2326,7 +2329,7 @@ a:hover {
 		padding-bottom: 160px;
 	}
 	.we-build-wrapper .we-build-col1 .image2 img {
-		margin-top: 230px;
+		margin-top: 25px;
 		height: 180px;
 	}
 	.we-build-wrapper .we-build-col1 .image1 img {
