@@ -920,10 +920,10 @@ a:hover {
 	z-index: 1;
 }
 .about-wrapper .right-image-wrap img{
-	position: absolute;
-	height: 400px;
-	left: -14%;
-	max-width: 650px;
+		position: absolute;
+		height: 400px;
+		left: -15%;
+		width: 130%;
 }
 .about-para{
 	background:#FFFFFF;
@@ -1954,6 +1954,12 @@ a:hover {
 	.card-row .right-inner-wrap .zigzag-icon3 {
 		margin-left: 10%;
 	}
+	.about-wrapper .right-image-wrap img {
+		position: absolute;
+		height: 350px;
+		left: -14%;
+		max-width: 114%;
+	}
 }
 @media screen and (min-width: 1201px) and (max-width:1340px) {
 	.banner {
@@ -2311,7 +2317,7 @@ a:hover {
 	.about-wrapper .right-image-wrap img {
 		position: absolute;
 		height: 350px;
-		width: 100%;
+		max-width: 115%;
 	}
 	.about-wrapper .left-inner-wrap {
 		padding-top: 80px;
